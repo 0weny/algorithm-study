@@ -1,1 +1,2 @@
-# algorithm-study-week01
+# algorithm-study
+
