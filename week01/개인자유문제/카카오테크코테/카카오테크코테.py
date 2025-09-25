@@ -1,6 +1,6 @@
-# week01 알고리즘 챌린지 실습4번 => 카카오테크 코테문제
+# week01 알고리즘 챌린지 실습4번 => 카카오테크 부트캠프 코테문제
 '''
-원형 큐? =>  나무 N개 배열 -> 원형큐로 안해도 될듯 -> list로 접근
+원형 큐?인줄 =>  나무 N개 배열 ->  list로 접근
 
 1. x>= M -> result += x & x== 0
 
@@ -27,7 +27,7 @@ trees = list(map(int, input().split()))
 Q = int(input())
 D = list(input().split())
 result = 0
-x -= 1  # 파이썬 0  부터 시작
+x -= 1  # 파이썬 0  부터 시작  #******************중요*******************
 
 
 def felling(trees, M, x, result):
@@ -39,9 +39,9 @@ def felling(trees, M, x, result):
 
 def move():
     if D == 'L':
-        x = (x - 1) % N  # *******
+        x = (x - 1) % N  # **********중요*******
     elif D == 'R':
-        x = (x + 1) % N  # *******
+        x = (x + 1) % N  # **********중요*******
     return x
 
 
