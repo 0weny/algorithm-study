@@ -14,6 +14,5 @@
 
 출처: https://hyemmimi.tistory.com/
 
-## 2. 프로그래머스 - 2019 KAKAO BLIND RECRUITMENT 오픈채팅방
 
 
